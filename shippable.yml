@@ -23,4 +23,10 @@ build:
   ci: 
     - node --version
     #- sleep 9m
+    
+integrations:
+  notifications:
+    - integrationName: et
+      type: webhook
+      on_success: always
  
