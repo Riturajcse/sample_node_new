@@ -9,9 +9,9 @@ node_js:
  # - iojs-v2   
   #- iojs-v3 
   
-env:
-  - BUILD_TAG=latest
-  - BUILD_TAG=prod
+#env:
+  #- BUILD_TAG=latest
+  #- BUILD_TAG=prod
   
 build:
   #pre_ci:
