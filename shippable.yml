@@ -26,7 +26,7 @@ build:
     
 integrations:    
   notifications:   
-    - integrationName: email         
+    - integrationName: email1        
       type: email        
       recipients: 
         - riturajcse1994@gmail.com
