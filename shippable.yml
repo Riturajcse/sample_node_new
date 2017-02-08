@@ -24,9 +24,13 @@ build:
     - node --version
     #- sleep 9m
     
-integrations:
-  notifications:
-    - integrationName: et
-      type: webhook
-      on_success: always
+integrations:    
+  notifications:   
+    - integrationName: email         
+      type: email        
+      recipients: 
+        - riturajcse1994@gmail.com
+      on_start: always
+      on_success: always 
+      on_failure: always
  
