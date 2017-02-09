@@ -26,10 +26,8 @@ build:
     
 integrations:    
   notifications:   
-    - integrationName: email      
+    - integrationName: emailCred    
       type: email        
-      recipients: 
-        - riturajcse1994@gmail.com
       on_start: always
       on_success: always 
       on_failure: always
