@@ -27,7 +27,7 @@ build:
 integrations:    
   notifications:   
     - integrationName: emailCred    
-      #type: email        
+      type: emailCred        
       on_start: always
       on_success: always 
       on_failure: always
