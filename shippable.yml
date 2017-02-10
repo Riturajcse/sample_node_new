@@ -27,7 +27,10 @@ build:
 integrations:    
   notifications:   
     - integrationName: emailCred  
-      type: email        
+      type: email
+      recipients: 
+        - 12uch016nita@gmail.com
+        #- shiptest.rc.me@gmail.com
       on_start: always
       on_success: always 
       on_failure: always
