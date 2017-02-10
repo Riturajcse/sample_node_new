@@ -30,7 +30,7 @@ integrations:
       type: email
       recipients: 
         - 12uch016nita@gmail.com
-        #- shiptest.rc.me@gmail.com
+        - --last_author
       on_start: always
       on_success: always 
       on_failure: always
