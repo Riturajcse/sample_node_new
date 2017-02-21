@@ -24,13 +24,4 @@ build:
     - node --version
     #- sleep 9m
     
-integrations:    
-  notifications:   
-    - integrationName: emailOld
-      type: email
-      recipients:
-        - 12uch016nita@gmail.com
-      on_start: always
-      on_success: always 
-      on_failure: always
  
