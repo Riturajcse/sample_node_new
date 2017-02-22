@@ -1,9 +1,8 @@
 language: 
-  - node_js1:
-    - hello
+  - node_js
 
 # Version number
-node_js:
+node_js1:
   #- 0.10
   - 0.12
   #- 4.2.1 
