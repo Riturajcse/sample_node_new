@@ -1,4 +1,6 @@
-language: node_js1
+language: 
+  - node_js1:
+    - hello
 
 # Version number
 node_js:
