@@ -9,7 +9,7 @@ node_js:
   #- null
   
   #- null
-  #- 0.12
+  - 0.12
   - 4.2.1 
 #  - iojs-v1Z      
  # - iojs-v2   
