@@ -1,5 +1,5 @@
 language: 
-  - node_js
+  - node_js1
 
 # Version number
 node_js: 
