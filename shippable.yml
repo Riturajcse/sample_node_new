@@ -2,7 +2,7 @@ language:
   - node_js
 
 # Version number
-node_js: "0.12"
+node_js: "0.122"
   #- 0.10
   #- 0.12
   #- 4.2.1 
