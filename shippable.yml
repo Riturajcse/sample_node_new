@@ -26,28 +26,3 @@ build:
     - node --version
     #- sleep 9m
     
- 
-env:
-  - BOO=Bar
-  - BOO2: newBar
-  - BOO3: thirdBar
-  - BO1O: Bar
-  - BOO12: newBar
-  - BOO31: thirdBar
-  - distribution=centos tag=6.8
-  - distribution: ubuntu 
-    tag: 14.04
-matrix:
-  include:
-    - node_js: "5.0"
-      env: 
-        - key1: include1
-  allow_failures:
-    - node_js: "4.2.3"
-      env:
-        - BOO2: newBar
-          BOO3: thirdBar
-build:
-  ci:
-    - echo "Hello world"
-    - node --version
