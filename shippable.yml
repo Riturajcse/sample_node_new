@@ -1,33 +1,61 @@
-language: 
-  - node_js
+language: node_js
 
-# Version number
-node_js: 
-  #- ver:
-      #- 0.122
-  #- 0.12
-  #- null
-  
-  #- null
+node_js:
+  - 0.10
+  - 5.0
+  - 4.2.3
+  - 4.2.4
+  - 4.2.5
+  - 0.11
+  - 5.2
+  - 4.3.3
+  - 4.4.4
+  - 4.5.5
   - 0.12
-  - 4.2.1 
-#  - iojs-v1Z      
- # - iojs-v2   
-  #- iojs-v3 
-  
-#env:
-  #- BUILD_TAG=latest
-  #- BUILD_TAG=prod
-  
+  - 5.6
+  - 4.5.3
+  - 4.5.4
+  - 4.6.5
+
+env:
+  - BOO=Bar
+  - BOO2: newBar
+  - BOO3: thirdBar
+  - BOO4: forthBar
+  - BOO5: fifthBar
+  - BOO6: sixthBar
+  - BOO7: sevenBar
+  - distribution=centos tag=6.8
+  - distribution: ubuntu 
+    tag: 14.04
+matrix:
+  include:
+    - node_js: "5.0"
+      env: 
+        - key1: include1
+  allow_failures:
+    - node_js: "4.2.3"
+      env:
+        - BOO2: newBar
+          BOO3: thirdBar
 build:
-  #pre_ci:
-   # - echo "this is pr-ci"
-  #pre_ci_boot:     
-    #image_name: drydock/u12nod 
-    #image_tag: $BUILD_TAG
-    #pull: true
-  ci: 
-    - node --version
-    #- sleep 9m
-    
- 
+  ci:
+    - echo "Hello worl"
+    - MYVERSION=`date +%s`
+    - echo $distribution
+    - echo $tag
+    - echo $test
+    - echo $BOO
+    - echo $BOO2
+    - echo $BOO3
+    - echo $FOO
+    - echo $FOO2
+    - echo $FOO3
+    - echo $key1
+    - echo $IOO2
+    - echo $IOO3
+    - echo $NEWFAIL
+    - node test.js
+    - echo $fine
+    - echo $new
+    - echo $secretkey
