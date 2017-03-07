@@ -25,6 +25,13 @@ env:
   - BOO5: fifthBar
   - BOO6: sixthBar
   - BOO7: sevenBar
+  - BOO1=Bar
+  - BOO21: newBar
+  - BOO31: thirdBar
+  - BOO41: forthBar
+  - BOO51: fifthBar
+  - BOO61: sixthBar
+  - BOO71: sevenBar
   - distribution=centos tag=6.8
   - distribution: ubuntu 
     tag: 14.04
