@@ -1,19 +1,14 @@
 language: node_js
 
 node_js:
-  - 0.10
-  - 5.0
   - 4.2.3
   - 4.2.4
-  - 4.2.5
-  - 0.11
-  - 5.2
   
 env:
-  - BUILD_TAG=latest
-  - BUILD_TAG=prod
-  - BUILD_TAG=latest1
-  - BUILD_TAG=prod1
+  - foo=bar
+  - foo1=bar1
+  - foo2=bar2
+  - foo3=bar3
   
 build:
   #pre_ci:
