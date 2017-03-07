@@ -8,7 +8,25 @@ node_js:
   - 4.2.5
   - 0.11
   - 5.2
-
+  
+env:
+  - BUILD_TAG=latest
+  - BUILD_TAG=prod
+  - BUILD_TAG=latest1
+  - BUILD_TAG=prod1
+  
+build:
+  #pre_ci:
+   # - echo "this is pr-ci"
+  #pre_ci_boot:     
+    #image_name: drydock/u12nod 
+    #image_tag: $BUILD_TAG
+    #pull: true
+  ci: 
+    - node --version
+    #- sleep 9m
+    
+ 
 env:
   - BOO=Bar
   - BOO2: newBar
