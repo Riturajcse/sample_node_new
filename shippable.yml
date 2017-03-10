@@ -2,6 +2,20 @@ language: node_js
 
 node_js:
   - 4.2.3
+  - 4.6.0
+  - 5.4.0
+  - 5.4.1
+  - 5.5.0
+  
+env:
+  - foo = bar
+  - foo1 = bar1
+  - foo2 = bar2
+  - foo3 = bar3
+  - foo4 = bar4
+  - foo5 = bar5
+  - foo6 = bar6
+  - foo7 = bar7
   
   
 build:
