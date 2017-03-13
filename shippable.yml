@@ -2,30 +2,6 @@ language: node_js
 
 node_js:
   - 4.2.3
-  - 4.2.4
-  - 4.7.0
-  - 4.6.2
-  - 4.4.2
-  - 4.4.0
-  - 4.4.1
-  
-env:
-  - foo=bar
-  - foo1=bar1
-  - foo2=bar2
-  - foo3=bar3
-  - fo11o=bar
-  - foo111=bar1
-  - foo211=bar2
-  - foo311=bar3
-  - foo323=bar
-  - foo1323=bar1
-  - foo2323=bar2
-  - foo3323=bar3
-  - fo11o323=bar
-  - foo111323=bar1
-  - foo211323=bar2
-  - foo311323=bar3
   
   
 build:
